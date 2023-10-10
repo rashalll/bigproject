@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-evenly;
+}
+
+.image {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/id/453944565/photo/home-exterior.jpg?s=1024x1024&w=is&k=20&c=QAwha09dGJaTIOZ0h9BS7bI87tJWDa7M02TUEGgoHEA=);
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    letter-spacing: 3px;
+    font-size: 1.8rem;
+    background-color: rgba(224, 255, 255, 0.778);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+
+}
+
+.btn {
+    border: 3px;
+    border-radius: 13px;
+    background-color: lightcoral;
+    color: #fff;
+    transition: 0.5s ease;
+    text-decoration: none;
+    width: 120px;
+    padding: 4.5px;
+    margin: 0px;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: rgba(248, 248, 146, 0.907);
+    color: lightgrey;
+}
+
+@media screen and (max-width:625px) {
+    * {
+        font-size: 1.3rem;
+    }
+}

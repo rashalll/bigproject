@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url();
+}
+
+h1 {
+    font-size: 30px;
+    margin: 2px;
+    padding: 2px;
+}
+
+h3 {
+    font-size: 15px;
+}

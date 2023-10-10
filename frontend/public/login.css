@@ -1,0 +1,76 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+}
+
+body {
+    background-image: url(https://media.istockphoto.com/id/1454207199/photo/garret-house-with-roof-shingle-in-the-evening-time-wooden-garret-house-and-shingle-tiles-in.jpg?s=1024x1024&w=is&k=20&c=Zp9u_fGqev6WPgGmpAdmiC4aw6aiQbbLHGc6WWzclFI=);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 60px;
+
+
+}
+
+
+
+form {
+    width: 500px;
+    height: auto;
+    padding: 16px 32px;
+    border-radius: 8px;
+    box-shadow: -10px 10px 27px -3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -10px 10px 27px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -10px 10px 27px -3px rgba(0, 0, 0, 0.75);
+    background-color: whitesmoke;
+}
+
+form label {
+    font-size: 20px;
+}
+
+form input,
+form select,
+form textarea,
+form button {
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    margin: 5px 0px 15px;
+    border: 1px solid #568496;
+    outline: 1.5px solid #568496;
+    font-size: 14px;
+    padding: 0px 8px;
+}
+
+
+
+form input::placeholder {
+    color: gray;
+}
+
+form textarea {
+    height: 150px;
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+form button {
+    border: none;
+    background-color: rgba(92, 164, 231, 0.756);
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+form button:hover {
+    background-color: aqua;
+}
